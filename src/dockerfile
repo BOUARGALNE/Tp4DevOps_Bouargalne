@@ -1,0 +1,5 @@
+# Utilisez une image de base Nginx
+FROM nginx
+
+COPY index.html /usr/share/nginx/html
+EXPOSE 80
